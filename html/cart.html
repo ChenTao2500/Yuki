@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/footer.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/cart.css"/>
+	</head>
+	<body>
+		<!--网页头部-->
+		<div class="header"></div>
+		<!--网页主体-->
+		<div class="main" style="height: 500px;">
+			<div class="cart"></div>
+		</div>
+		<div class="guess"><h1 class="tit">猜你喜欢</h1></div>
+		<!--猜你喜欢模板-->
+		<script type="text/html" id="product_like">
+			{{each likes as like index}}
+				<div class="like" >
+					<a href="detail.html"><img src="{{like.img}}" class="img" /></a>
+					<a href="detail.html"><p class="title">{{like.title}}</p></a>
+					<a href="detail.html"><span class="price">￥：{{like.price}}.0</span></a>
+				</div>
+			{{/each}}
+		</script>
+		<div class="likes"></div>
+		<!--网页尾部-->
+		<div class="footer"></div>
+	<script src="../lib/requirejs/require.js" data-main = "../js/cart"></script>
+	</body>
+</html>

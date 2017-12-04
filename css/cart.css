@@ -1,0 +1,54 @@
+.cart, .likes {
+  width: 1159px;
+  height: 500px;
+  border: 1px solid #ccc;
+  margin: 50px auto;
+  border-radius: 5px;
+}
+
+.guess {
+  width: 1159px;
+  height: 50px;
+  background: #FFEFD5;
+  line-height: 50px;
+  margin-top: 20px;
+  margin-left: 48px;
+}
+.guess .tit {
+  font-size: 15px;
+  font-style: normal;
+}
+
+.likes {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+  height: 301px;
+  border: none;
+}
+.likes .like {
+  width: 209px;
+  height: 301px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.likes .like img {
+  width: 150px;
+  height: 206px;
+  margin-left: 30px;
+  margin-top: 23px;
+}
+.likes .like p {
+  margin-left: 31px;
+  margin-bottom: 8px;
+  margin-top: 10px;
+  width: 163px;
+  height: 19px;
+  overflow: hidden;
+}
+.likes .like span {
+  margin-left: 82px;
+  color: red;
+}
+
+/*# sourceMappingURL=cart.css.map */
