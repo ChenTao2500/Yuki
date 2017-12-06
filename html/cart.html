@@ -27,6 +27,11 @@
 				</div>
 				<div class="cart_body"></div>
 			</div>
+			
+			<div class="totl">
+				<span class="total">00.00</span>
+				<a href="confirm.html"><span class="suan">结算</span></a>
+			</div>
 
 		</div>
 		<div class="guess"><h1 class="tit">猜你喜欢</h1></div>
@@ -34,9 +39,10 @@
 		<script type="text/html" id="product_like">
 			{{each likes as like index}}
 				<div class="like" >
+					<input type="hidden" class="id" value="{{like.id}}" >
 					<a href="detail.html"><img src="{{like.img}}" class="img" /></a>
 					<a href="detail.html"><p class="title">{{like.title}}</p></a>
-					<a href="detail.html"><span class="price">￥：{{like.price}}.0</span></a>
+					<a href="detail.html"><span class="s1">￥:</span><span class="price">{{like.price}}</span><span class="s2">.0</span></a>
 				</div>
 			{{/each}}
 		</script>

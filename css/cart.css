@@ -37,6 +37,36 @@
   height: 59px;
 }
 
+.totl {
+  width: 1159px;
+  height: 60px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  margin-left: 53px;
+  position: relative;
+}
+.totl .suan, .totl .total {
+  display: block;
+  width: 100px;
+  height: 60px;
+  background: cornflowerblue;
+  text-align: center;
+  line-height: 60px;
+  position: absolute;
+  left: 1059px;
+  top: 0px;
+  font-size: 20px;
+  color: white;
+}
+.totl .total {
+  float: right;
+  background: white;
+  position: absolute;
+  color: red;
+  left: 959px;
+  top: 0px;
+}
+
 .title, .row, .cart_body {
   clear: both;
 }
@@ -93,7 +123,7 @@
   display: flex;
   justify-content: space-between;
   flex-flow: wrap;
-  height: 301px;
+  height: 324px;
   border: none;
 }
 .likes .like {
@@ -101,6 +131,15 @@
   height: 301px;
   border: 1px solid #ccc;
   border-radius: 5px;
+}
+.likes .like .s1 {
+  margin-left: 56px;
+}
+.likes .like .price {
+  margin-left: 2px;
+}
+.likes .like .s2 {
+  margin-left: 4px;
 }
 .likes .like img {
   width: 150px;

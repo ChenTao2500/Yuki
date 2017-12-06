@@ -13,6 +13,5 @@ define(["jquery", "cookie"], function($){
 			$(this).css("height", 35);
 		});
 	});
-
 	$(".footer").load("../html/include/footer.html");
 });
