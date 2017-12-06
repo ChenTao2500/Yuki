@@ -11,13 +11,9 @@
 .cart, .likes {
   width: 1159px;
   border: 1px solid #ccc;
-  border-bottom: none;
   margin: 50px auto;
   border-radius: 5px;
   overflow: hidden;
-}
-.cart .title div, .likes .title div {
-  border-bottom: 1px solid #ccc;
 }
 .cart .title .oper, .likes .title .oper {
   border-right: none;
@@ -29,7 +25,6 @@
   height: 60px;
   float: left;
   overflow: hidden;
-  border-right: 1px solid;
   text-align: center;
 }
 .cart .row .img img, .likes .row .img img {
@@ -73,8 +68,7 @@
 
 .cart_body div {
   width: 1159px;
-  height: 61px;
-  border-bottom: 1px solid #ccc;
+  height: 100px;
 }
 .cart_body .amount {
   position: relative;

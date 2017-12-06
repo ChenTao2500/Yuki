@@ -11,14 +11,10 @@
 .cart{
     width: 1159px;
     border: 1px solid #ccc;
-    border-bottom: none;
     margin: 50px auto;
     border-radius: 5px;
     overflow: hidden;
     .title{
-        div{
-            border-bottom: 1px solid #ccc;
-        }
         .oper{
             border-right: none;
             width: 151px;
@@ -31,7 +27,6 @@
             height: 60px;
             float: left;
             overflow: hidden;
-            border-right:1px solid ;
             text-align: center;
         }
     }
@@ -78,8 +73,7 @@
     .cart_body{
         div{
             width: 1159px;
-            height: 61px;
-            border-bottom: 1px solid #ccc;
+            height: 100px;
         }
         .amount{
             position: relative;
